@@ -1,0 +1,60 @@
+/* give the display property grid to the container */
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    /* define rows using single quotation marks */
+    /* define what grid area you want seen on each row */
+    'navsection navsection navsection navsection navsection navsection'
+    'sidemenu1 sidemenu1 bannersection bannersection bannersection sidemenu2'
+    'maingallery maingallery maingallery maingallery maingallery maingallery'
+    'footersection footersection footersection footersection footersection footersection'
+    ;
+}
+
+#navsection {
+    grid-area: navsection;
+}
+
+#bannersection {
+    grid-area: bannersection;
+}
+
+#maingallery {
+    background-color: green;
+    grid-area: maingallery;
+}
+
+#footersection {
+    background-color: yellow;
+    grid-area: footersection;
+}
+
+#sidemenu1 {
+    background-color: black;
+    grid-area: sidemenu1;
+}
+
+#sidemenu2 {
+    background-color: aqua;
+    grid-area: sidemenu2;
+}
+/* when writing a media query,position it at the very bottom of the css file */
+@media only screen and (max-width: 600px){
+    /* body {
+        background-color: red;
+    }
+ */
+
+/* display  : property */
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'navsection navsection navsection navsection navsection navsection'
+    'sidemenu1 sidemenu1 sidemenu1 sidemenu1 sidemenu1 sidemenu1'
+    'bannersection bannersection bannersection bannersection bannersection bannersection'
+    'sidemenu2 sidemenu2 sidemenu2 sidemenu2 sidemenu2 sidemenu2'
+    'maingallery maingallery maingallery maingallery maingallery maingallery'
+    'footersection footersection footersection footersection footersection footersection'
+    ;
+}
+}

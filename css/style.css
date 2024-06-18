@@ -1,0 +1,19 @@
+/* external css */
+/* using element name */
+/* it will style any element with the same name that does not have an id or class name */
+button {
+    background-color: blueviolet;
+    color: antiquewhite;
+    border-radius: 10px;
+}
+
+/* class : all elements with the same class name will receive this styling */
+.paraClass {
+    text-decoration-line: underline;
+    color: black;
+}
+/* id , identification : uniqueness */
+#purp {
+    background-color: brown;
+}
+
