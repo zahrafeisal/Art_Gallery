@@ -20,22 +20,18 @@
 }
 
 #maingallery {
-    background-color: green;
     grid-area: maingallery;
 }
 
 #footersection {
-    background-color: yellow;
     grid-area: footersection;
 }
 
 #sidemenu1 {
-    background-color: black;
     grid-area: sidemenu1;
 }
 
 #sidemenu2 {
-    background-color: aqua;
     grid-area: sidemenu2;
 }
 /* when writing a media query,position it at the very bottom of the css file */
